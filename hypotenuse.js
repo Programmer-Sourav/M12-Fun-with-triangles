@@ -8,7 +8,7 @@ function calculateHypotenuseOfTriangle(){
     console.log(input_sides[0])
     const sumOfSquares = calculateSumOfSquares(Number(input_sides[0].value), Number(input_sides[1].value))
     const lengthOfHypotenuse = Math.sqrt(sumOfSquares)
-    output_info.innerText = "Length of Hypotenuse is "+lengthOfHypotenuse
+    output_info.innerText = "Length of Hypotenuse is "+lengthOfHypotenuse.toFixed(2)
 }
 
 function calculateSumOfSquares(s1, s2){
