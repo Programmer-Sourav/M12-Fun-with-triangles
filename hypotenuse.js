@@ -1,5 +1,5 @@
 const input_sides = document.querySelectorAll(".input-side")
-const output_info = document.querySelector("#output-info")
+const output_info = document.querySelector(".output-info-font")
 const calculate_hypotenuse_btn = document.querySelector("#calculate-hypotensuse")
 
 calculate_hypotenuse_btn.addEventListener("click", calculateHypotenuseOfTriangle)

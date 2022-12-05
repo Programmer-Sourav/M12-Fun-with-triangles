@@ -1,6 +1,6 @@
 const quizForm = document.querySelector(".form-for-quiz")
 const submitAnswerBtn = document.querySelector("#submit_button")
-const showOutput = document.querySelector("#output-info")
+const showOutput = document.querySelector(".output-info-font")
 
 const arrayOfCorrectAnswers = ["90°", "right angled","one right angle","Equilateral triangle","100°"];
 
@@ -16,6 +16,8 @@ function calculateScore(){
         }
         index = index + 1
     }
+    console.log(index)
+    console.log(score)
     showOutput.innerText = "You have scored "+score
 }
 
