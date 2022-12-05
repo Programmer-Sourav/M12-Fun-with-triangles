@@ -41,6 +41,15 @@ h1{
     height: 40px;
 }
 
+.rectangle-mesaurement{
+    align-self: center;
+    margin: 16px;
+    width: 100%;
+    max-width: 256px;
+    display: "block";
+    height: 40px;
+}
+
 .angle-input{
     align-self: center;
     width: 256px;
